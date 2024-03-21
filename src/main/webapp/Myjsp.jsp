@@ -12,10 +12,12 @@
 </head>
 <body>
 <a href="../index.jsp">go to ecjtu</a>
-<form method="post">
+<form method="post" action="register">
     Name:<input type="text" name="name"><br/>
     ID:<input type="text" name="name"><br/>
     email:<input type="text" name="name"><br/>
+    date:<input type="text" name="name"><br/>
+    gender:male<input type="radio" name="name">female<input type="radio" name="name"><br/>
     <input type="submit" value="send data to server"/>
 </form>
 </body>
